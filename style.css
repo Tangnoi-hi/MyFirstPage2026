@@ -1,0 +1,20 @@
+body {
+    /* Fallback color for older browsers */
+    background-color: #54008C; 
+    
+    /* The gradient styling */
+    background-image: linear-gradient(to bottom, #54008C 0%, #23003D 100%);
+    
+    /* Crucial settings to stop the gradient from repeating or cutting off */
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20vh;
+    font-family: 'Arial', sans-serif;
+}
+a{ color:#FFFFFF}
